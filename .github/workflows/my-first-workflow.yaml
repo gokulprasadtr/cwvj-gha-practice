@@ -13,3 +13,5 @@ jobs:
     steps:
       - name: final stage
         run: echo "running final step"
+      - name: another step
+        run: echo "running jobs on another step"
